@@ -2,6 +2,8 @@ name: Sync Upstream
 
 permissions:
   contents: write
+  pull-requests: write
+  workflows: write  # 关键权限：允许修改 workflows 目录
 
 on:
   schedule:
